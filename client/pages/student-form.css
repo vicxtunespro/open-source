@@ -9,7 +9,7 @@ body{
     padding: 4rem;
 }
 .add-student{
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.692);
     color: white;
     width: 7rem;
     border-radius: 4px;
