@@ -9,7 +9,7 @@ body{
     padding: 4rem;
 }
 .add-student{
-    background-color: green;
+    background-color: blue;
     color: white;
     width: 7rem;
     border-radius: 4px;
@@ -24,7 +24,8 @@ table{
     
 }
 thead th{
-    background-color: rgba(128, 128, 128, 0.592);
+    background-color: black;
+    color: white;
     text-align: left;
     font-weight: bolder;
     padding-left: 1rem;
