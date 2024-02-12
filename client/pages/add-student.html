@@ -4,48 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/pages/style.css">
 </head>
 <body>
-        <form class="form" action="#">
+        <form class="form" action="/student-admit" method="POST">
             <h1>Registration</h1>
             <div>
                 <div class="container">
                     <div class="text1">
-                        <label for="fullname" id="fname">Full Name</label><br>
-                        <input type="text" placeholder="Enter First Name"><br><br>
-                        <label for="address" id="address">Address</label><br>
-                        <input type="text" placeholder="Enter Address"><br><br>
-                        <label for="age" id="age">Age</label><br>
-                        <input type="text" placeholder="Enter Your Age">
+                        <label for="fullname">Full Name</label><br>
+                        <input type="text" name="fullname" placeholder="Enter First Name"><br><br>
+                        <label for="address">Address</label><br>
+                        <input type="text" name="address" placeholder="Enter Address"><br><br>
+                        <label for="age">Age</label><br>
+                        <input type="text" name="age" placeholder="Enter Your Age">
                     </div>
                     <div class="text2">
-                        <label for="surname" id="surname">Surname</label><br>
-                        <input type="text" placeholder="Enter Surname"><br><br>
-                        <label for="class" id="class">Class</label><br>
-                        <input type="text" placeholder="Enter Your Class"><br><br>
-                        <label for="stream" id="stream">Stream</label><br>
-                        <input type="text">
+                        <label for="surname">Surname</label><br>
+                        <input type="text" name="surname" placeholder="Enter Surname"><br><br>
+                        <label for="class">Class</label><br>
+                        <input type="text" name="level" placeholder="Enter Your Class"><br><br>
+                        <label for="stream">Stream</label><br>
+                        <input type="text" name="stream" placeholder="Stream">
                     </div>
                 </div>
                 <h1>Gender</h1>
                 <div class="checkbox">
                     <div>
-                        <input type="checkbox">
+                        <input type="checkbox" name="gender" value="Male">
                         <label for="male">Male</label>
                     </div>
                     <div>
-                        <input type="checkbox">
+                        <input type="checkbox" name="gender" value="Female">
                         <label for="female">Female</label>
                     </div>
                     <div>
-                        <input type="checkbox">
+                        <input type="checkbox" name="gender" value="Cofidential">
                         <label for="rathernotsay">Rather Not Say</label>
                     </div>
                 </div>
                 
             </div>
-            <button>Register</button>
+            <button type="submit">Register</button>
         </form>
 </body>
 </html>
